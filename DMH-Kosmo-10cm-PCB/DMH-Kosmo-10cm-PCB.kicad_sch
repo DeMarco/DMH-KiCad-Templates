@@ -38,6 +38,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "Bus Gate" output
@@ -96,6 +97,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -107,8 +109,8 @@
 		)
 	)
 	(sheet
-		(at 38.1 16.51)
-		(size 33.02 76.2)
+		(at 17.78 17.78)
+		(size 20.32 118.11)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -119,7 +121,7 @@
 		)
 		(uuid "ce3fef8b-9f1d-4178-b50b-4a046c030679")
 		(property "Sheetname" "Inputs and Outputs"
-			(at 38.1 15.7984 0)
+			(at 17.78 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -128,12 +130,13 @@
 			)
 		)
 		(property "Sheetfile" "Inputs_and_Outputs.kicad_sch"
-			(at 38.1 93.2946 0)
+			(at 17.78 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
