@@ -147,4 +147,16 @@
 		(layer "User.9")
 		(uuid "00a9661b-bc4e-493a-9a57-d5b24a34753b")
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 100 45 0)
+		(layer "B.SilkS")
+		(uuid "8ace6051-680f-400e-a35e-9f3e47b2e4c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 )
