@@ -1,3 +1,6 @@
 [submodule "DMH-Kosmo-10cm-PCB/Libraries/SynthStuff"]
 	path = DMH-Kosmo-10cm-PCB/Libraries/SynthStuff
 	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
+[submodule "DMH-Kosmo-5cm-PANEL/Libraries/SynthStuff"]
+	path = DMH-Kosmo-5cm-PANEL/Libraries/SynthStuff
+	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
