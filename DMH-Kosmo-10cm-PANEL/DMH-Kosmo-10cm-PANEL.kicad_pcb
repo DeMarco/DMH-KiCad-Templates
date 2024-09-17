@@ -125,18 +125,19 @@
 			(outputdirectory "")
 		)
 	)
+	(property "Function" "")
 	(net 0 "")
 	(net 1 "GND")
-	(footprint "SynthStuff:MountingHole_Slotted_Rails"
+	(footprint "SynthStuff:MountingHole_Rails"
 		(layer "F.Cu")
 		(uuid "1029714a-4850-4a89-a438-67c4405da68f")
-		(at 55.5 227)
+		(at 53.5 226.5)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H3"
 			(at 0 -4.2 0)
 			(layer "F.Fab")
-			(uuid "9e061d65-365d-4bcb-9b75-3e0aa74219a0")
+			(uuid "08220ce3-3c70-4b6d-a818-84b126262b59")
 			(effects
 				(font
 					(size 1 1)
@@ -147,7 +148,8 @@
 		(property "Value" "MountingHole_Rails"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "1c616dbd-5f49-4e54-a116-dc5b50328f73")
+			(hide yes)
+			(uuid "935d7b88-433d-47f3-8c83-0ced57a346ba")
 			(effects
 				(font
 					(size 1 1)
@@ -155,12 +157,12 @@
 				)
 			)
 		)
-		(property "Footprint" "SynthStuff:MountingHole_Slotted_Rails"
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b45bf23-af78-4733-b229-4a18f47265ed")
+			(uuid "bc8a0d32-6fce-4528-b98a-3aa909073025")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173,7 +175,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5fb1f4b-a0e6-4c21-9ac8-0cb0feea5030")
+			(uuid "5f94daab-4f56-455b-8fcb-e5d347d2ea2a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,7 +188,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "05fcb089-643b-475f-99a8-0a55e62c60d5")
+			(uuid "7738c29d-b5f7-488c-b102-a1e0bdf21375")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -197,7 +199,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/ab447e37-c473-44f9-b580-278261ee12b1")
 		(sheetname "Root")
-		(sheetfile "DMH-Kosmo-5cm-PANEL.kicad_sch")
+		(sheetfile "DMH-Kosmo-10cm-PANEL.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -208,7 +210,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "893af9ba-76be-4881-bf56-b8bce1fb4739")
+			(uuid "c3624915-9a07-4630-bb3b-65d8de4a7ab0")
 		)
 		(fp_circle
 			(center 0 0)
@@ -219,12 +221,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "4605aef0-93d4-4fb8-b3e1-eccbc43a2bfe")
+			(uuid "6ff8e3f8-ffb4-45ee-ac70-a2eca37024e7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "b8b920fb-ae8c-46e1-87b0-0788b072e503")
+			(uuid "3ab81dad-62bd-4b8d-90b2-8eb0c87bc525")
 			(effects
 				(font
 					(size 1 1)
@@ -232,29 +234,29 @@
 				)
 			)
 		)
-		(pad "1" thru_hole oval
+		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 9.08 4)
-			(drill oval 8.28 3.2)
+			(size 4 4)
+			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "586aa84c-958d-427c-9df0-387a0c384a04")
+			(uuid "d40aefb0-f523-4918-9f94-d319ee91d6ca")
 		)
 	)
-	(footprint "SynthStuff:MountingHole_Slotted_Rails"
+	(footprint "SynthStuff:MountingHole_Rails"
 		(layer "F.Cu")
 		(uuid "b82a51a4-23b7-4f7a-849b-b6b841ae6a11")
-		(at 144.5 33)
+		(at 146.5 33.5)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H2"
 			(at 0 -4.2 0)
 			(layer "F.Fab")
-			(uuid "4e7f2ca8-ce57-465f-9400-aa92d14a1661")
+			(uuid "1b554150-6fd3-4d06-a649-8430cd611057")
 			(effects
 				(font
 					(size 1 1)
@@ -265,7 +267,8 @@
 		(property "Value" "MountingHole_Rails"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "fef6ddc0-d844-4b64-84ea-72e381a9a999")
+			(hide yes)
+			(uuid "f747b845-76cd-4230-b3fc-73ae1ebff265")
 			(effects
 				(font
 					(size 1 1)
@@ -273,12 +276,12 @@
 				)
 			)
 		)
-		(property "Footprint" "SynthStuff:MountingHole_Slotted_Rails"
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "93430189-b199-403a-b006-41819b81ccb1")
+			(uuid "483f3b8f-0269-4e1b-87a2-3d890e5a4224")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -291,7 +294,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe96a85d-ae92-43e0-85cb-774a0c456488")
+			(uuid "21f50957-38f8-4b62-bafc-d574e863df9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -304,7 +307,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d841bd83-a9a3-44f7-8b43-2f5c04f5ada5")
+			(uuid "8d7fddd4-652f-42d3-a635-0333a33b947e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -315,7 +318,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/0fdd41a5-c82a-40c3-8a4e-98f3ced84682")
 		(sheetname "Root")
-		(sheetfile "DMH-Kosmo-5cm-PANEL.kicad_sch")
+		(sheetfile "DMH-Kosmo-10cm-PANEL.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -326,7 +329,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "62bdc491-6482-47e7-9dbe-5ccd040e5c7f")
+			(uuid "318a4fc5-a899-4d55-8240-a0e14f7f1140")
 		)
 		(fp_circle
 			(center 0 0)
@@ -337,12 +340,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "1e3523e0-aeca-4531-ab48-2d583528c2c1")
+			(uuid "3c8286e1-454c-4a03-a9ca-ceb5c90d6f89")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "2b686ea6-73f5-4d33-8dbe-7e64e147e0e4")
+			(uuid "39c6884b-d747-4432-82c3-b1f295d57b26")
 			(effects
 				(font
 					(size 1 1)
@@ -350,29 +353,29 @@
 				)
 			)
 		)
-		(pad "1" thru_hole oval
+		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 9.08 4)
-			(drill oval 8.28 3.2)
+			(size 4 4)
+			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "5a7a3f16-0e8c-4c44-9ff2-75fd1cf64c5c")
+			(uuid "a46d4ac3-fb32-43c7-92aa-4a2c948acca0")
 		)
 	)
-	(footprint "SynthStuff:MountingHole_Slotted_Rails"
+	(footprint "SynthStuff:MountingHole_Rails"
 		(layer "F.Cu")
 		(uuid "bc6c59a1-8fa8-439d-93bd-bad8386cfab7")
-		(at 144.5 227)
+		(at 146.5 226.5)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H4"
 			(at 0 -4.2 0)
 			(layer "F.Fab")
-			(uuid "3f767885-e101-4d93-9824-bcb763753c04")
+			(uuid "3f31b09b-bb00-4754-b229-852c5b773e18")
 			(effects
 				(font
 					(size 1 1)
@@ -383,7 +386,8 @@
 		(property "Value" "MountingHole_Rails"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "feeac43a-5b42-4b37-8dfc-45df1eb2e747")
+			(hide yes)
+			(uuid "e0263e79-44af-4310-8773-a3000b561f92")
 			(effects
 				(font
 					(size 1 1)
@@ -391,12 +395,12 @@
 				)
 			)
 		)
-		(property "Footprint" "SynthStuff:MountingHole_Slotted_Rails"
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d06bf635-29cd-4277-8cd6-93c1f0593acf")
+			(uuid "54659eb2-1a7d-4461-9a81-9a3a4b2334aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -409,7 +413,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a7c1faa-dbd1-4d5b-adb4-a47a2e272280")
+			(uuid "32892241-7424-4807-ab63-03021befcabc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -422,7 +426,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6cdaa418-3db5-4a52-a9b9-608a995d4026")
+			(uuid "0cbb27bb-b143-4ffe-a8bd-ba9d39fa990e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -433,7 +437,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/ed2400b3-24fa-4438-9c25-79e03b5de385")
 		(sheetname "Root")
-		(sheetfile "DMH-Kosmo-5cm-PANEL.kicad_sch")
+		(sheetfile "DMH-Kosmo-10cm-PANEL.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -444,7 +448,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "86b63fb9-000e-4bce-b4f3-d811b0dd7204")
+			(uuid "eaeb183f-92c1-417b-bc88-e99e89197cdc")
 		)
 		(fp_circle
 			(center 0 0)
@@ -455,12 +459,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "431a21aa-df1b-44e7-bd37-e2d563e95dd2")
+			(uuid "77476053-1a5f-47d2-8ca5-222b4544a9d0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "59f0f39b-3401-4a22-9fbe-84047517a6e3")
+			(uuid "d565cc71-fe79-418d-bc2d-2908a3105a31")
 			(effects
 				(font
 					(size 1 1)
@@ -468,29 +472,29 @@
 				)
 			)
 		)
-		(pad "1" thru_hole oval
+		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 9.08 4)
-			(drill oval 8.28 3.2)
+			(size 4 4)
+			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "129547d6-cb19-4a88-83a7-1b54d9af2954")
+			(uuid "28e09e8c-413e-40c1-b60d-df67fe82f1c4")
 		)
 	)
-	(footprint "SynthStuff:MountingHole_Slotted_Rails"
+	(footprint "SynthStuff:MountingHole_Rails"
 		(layer "F.Cu")
 		(uuid "d8bdcc54-3430-4806-89b6-4098d7084b49")
-		(at 55.5 33)
+		(at 53.5 33.5)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H1"
 			(at 0 -4.2 0)
 			(layer "F.Fab")
-			(uuid "fd8d691d-b594-479b-bf68-2e21d1cabfe3")
+			(uuid "58b3d4ef-0b55-467f-a2ab-b20b57d83b95")
 			(effects
 				(font
 					(size 1 1)
@@ -501,7 +505,8 @@
 		(property "Value" "MountingHole_Rails"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "80650721-5e16-4f61-84cd-2734ba7fff96")
+			(hide yes)
+			(uuid "b8618671-e8de-4fd6-9c1e-fb5a7db7bf0b")
 			(effects
 				(font
 					(size 1 1)
@@ -509,12 +514,12 @@
 				)
 			)
 		)
-		(property "Footprint" "SynthStuff:MountingHole_Slotted_Rails"
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b9eff91-42fd-4910-9758-19771f91a117")
+			(uuid "6c9d0f5c-22f6-4008-81ad-a8a92e2e1584")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -527,7 +532,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b33d33f6-d5b2-41b7-93b6-7bbd57bbd1ab")
+			(uuid "139aae75-8b7d-4284-84e3-efc9d396a592")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540,7 +545,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73dabdf6-9336-4921-a9d0-97fb2457e1e3")
+			(uuid "45f31468-9c39-4b51-87bb-dbf50bf59365")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -548,10 +553,23 @@
 				)
 			)
 		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a188ef32-a635-49dd-be51-9fd5d47aadb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/fe1cb2e3-4f6f-454a-b749-40096bc46310")
 		(sheetname "Root")
-		(sheetfile "DMH-Kosmo-5cm-PANEL.kicad_sch")
+		(sheetfile "DMH-Kosmo-10cm-PANEL.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -562,7 +580,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "11881196-86aa-4251-90a6-238f144ad452")
+			(uuid "ada9df28-fe60-47ac-8228-cac55af724f7")
 		)
 		(fp_circle
 			(center 0 0)
@@ -573,12 +591,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "a979b65d-ed7f-46c9-b76b-973ac1646fe4")
+			(uuid "52a59e24-b418-44dd-8772-accfdbfb5a44")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "1b1c3550-50af-4c16-a0e2-86461771ce2e")
+			(uuid "88cede5e-bc54-4a05-9f80-f631872114da")
 			(effects
 				(font
 					(size 1 1)
@@ -586,18 +604,184 @@
 				)
 			)
 		)
-		(pad "1" thru_hole oval
+		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 9.08 4)
-			(drill oval 8.28 3.2)
+			(size 4 4)
+			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "6cc85cdd-be43-4356-9458-b1dcf5e91f1f")
+			(uuid "625aa308-aa3d-4736-a5b4-b55564835fcd")
 		)
+	)
+	(footprint "SynthStuff:Panel_GND_SolderWirePad_5x10mm"
+		(layer "B.Cu")
+		(uuid "0a7aa282-64da-431c-8e0c-aac63d85a053")
+		(at 55 130 180)
+		(descr "Wire Pad, Square, SMD Pad,  5mm x 10mm,")
+		(tags "MesurementPoint Square SMDPad 5mmx10mm ")
+		(property "Reference" "J0"
+			(at 0 3.81 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9511b071-d306-4519-a097-9e7460d5713e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Panel_GND_Solder_Wire_Pad"
+			(at 0 -6.35 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "69cb9bec-70e7-4484-bb13-5262abfb0816")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "SynthStuff:Panel_GND_SolderWirePad_5x10mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "30371a09-6699-4c19-86df-31f6cce9fbec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2572ebab-d754-4587-8c04-75e62651bbb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Solder pad to allow connection between PCB and Front Panel"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0f76b4fe-dbb5-4306-bc14-92a3a9c0ac1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Function" "GND"
+			(at 0 -6.75 0)
+			(layer "B.SilkS")
+			(uuid "4c1ee179-0c06-4abd-bb1a-4790d8acc931")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+					(bold yes)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/ef5ecaa4-eacb-4f08-95bc-f5cc86c071fd")
+		(sheetname "Root")
+		(sheetfile "DMH-Kosmo-10cm-PANEL.kicad_sch")
+		(zone_connect 1)
+		(attr smd exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start 2.75 5.25)
+			(end 2.75 -5.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "64f3fcb3-588a-4051-8220-383a069d957d")
+		)
+		(fp_line
+			(start 2.75 -5.25)
+			(end -2.75 -5.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "2c738706-0ca9-4064-a780-6c18ec67fa50")
+		)
+		(fp_line
+			(start -2.75 5.25)
+			(end 2.75 5.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "fe627593-c487-41bf-876f-4c170649b328")
+		)
+		(fp_line
+			(start -2.75 -5.25)
+			(end -2.75 5.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "552714a1-e28d-4b1c-bf90-ec6818a33d73")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "8f15f704-cf2b-4fee-b2e0-cf66094342c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0 180)
+			(size 5 10)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 1 "GND")
+			(pinfunction "Pin_1")
+			(pintype "power_out")
+			(uuid "2c2dc243-2c90-49fd-8151-16c38b2851ce")
+		)
+	)
+	(gr_rect
+		(start 95 225.5)
+		(end 105 227.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "37a3b1d4-8370-4427-9c7e-bdbcd35fcc0f")
 	)
 	(gr_line
 		(start 62.5 30)
@@ -650,6 +834,16 @@
 		(uuid "1bdf7799-3f30-475a-a7c5-0a7e10651174")
 	)
 	(gr_line
+		(start 150 42.5)
+		(end 150 86.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "1f0c6ccb-5fd6-48a9-aa88-5b759432e5bf")
+	)
+	(gr_line
 		(start 50 130)
 		(end 100 130)
 		(stroke
@@ -668,6 +862,16 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "30ffa59f-1a46-43f8-93b6-9f11461c164f")
+	)
+	(gr_line
+		(start 75 64.375)
+		(end 50 64.375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "311a9e5d-b1d3-407f-b108-101c7ca873c4")
 	)
 	(gr_line
 		(start 50 86.25)
@@ -690,6 +894,16 @@
 		(uuid "38da25c2-f504-49df-bc42-ed1e40fed989")
 	)
 	(gr_line
+		(start 150 173.75)
+		(end 150 130)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "3f177c05-7ec7-4544-b236-01322a70938c")
+	)
+	(gr_line
 		(start 100 130)
 		(end 150 173.75)
 		(stroke
@@ -698,6 +912,16 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "3f34a5ff-4ede-4f65-9f5d-5410d5535a68")
+	)
+	(gr_line
+		(start 50 86.25)
+		(end 50 130)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "3fa5f30d-da88-47a9-8183-c5425df954ac")
 	)
 	(gr_line
 		(start 50 86.25)
@@ -710,6 +934,26 @@
 		(uuid "3fe578bc-33be-47cf-bf85-1742d828db4b")
 	)
 	(gr_line
+		(start 50 217.5)
+		(end 150 217.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "402afe33-4ef2-4d4f-8f4a-3f97e9bc6326")
+	)
+	(gr_line
+		(start 75 195.625)
+		(end 125 195.625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "40f1dcda-d964-4ec3-8dfe-1e02df4874dc")
+	)
+	(gr_line
 		(start 50 173.75)
 		(end 100 217.5)
 		(stroke
@@ -718,6 +962,36 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "42ce96cc-6917-4cac-a757-2ee52789f921")
+	)
+	(gr_line
+		(start 50 42.5)
+		(end 50 86.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "4585723c-1f09-4e04-bb04-2bc138c716d5")
+	)
+	(gr_line
+		(start 75 108.125)
+		(end 125 108.125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "4934eb0e-3daf-4f59-8050-939975e7c06a")
+	)
+	(gr_line
+		(start 125 64.375)
+		(end 150 64.375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "4ce6fa90-137d-49f3-b605-62cedaa21598")
 	)
 	(gr_line
 		(start 100 173.75)
@@ -780,6 +1054,16 @@
 		(uuid "5e140fc1-5e90-4498-b3d1-0d983481cd76")
 	)
 	(gr_line
+		(start 125 151.875)
+		(end 150 151.875)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5ebe27ed-fc37-4fd0-8b67-a77b3953e95b")
+	)
+	(gr_line
 		(start 100 130)
 		(end 150 86.25)
 		(stroke
@@ -820,6 +1104,16 @@
 		(uuid "6f079d74-7cc5-44e1-8675-b1b89e1d2b1f")
 	)
 	(gr_line
+		(start 50 173.75)
+		(end 50 217.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "721ff30d-19ae-4ac9-b573-8cd9e9559c10")
+	)
+	(gr_line
 		(start 100 42.5)
 		(end 50 86.25)
 		(stroke
@@ -828,6 +1122,36 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "76931876-bf8a-492e-80e8-fe9cfbc7183c")
+	)
+	(gr_line
+		(start 125 108.125)
+		(end 150 108.125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "782eda80-7573-4ff8-8441-b81785d00988")
+	)
+	(gr_line
+		(start 150 217.5)
+		(end 150 173.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7dd1922d-1080-452e-898c-2e6e7999fa77")
+	)
+	(gr_line
+		(start 75 108.125)
+		(end 50 108.125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "833f571f-4370-49b8-87bb-90dd447e2c5c")
 	)
 	(gr_line
 		(start 100 173.75)
@@ -850,6 +1174,16 @@
 		(uuid "8a598ac3-b389-4a28-b0b1-d6600a05ff47")
 	)
 	(gr_line
+		(start 150 86.25)
+		(end 150 130)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "8c855199-9770-4e68-8db7-43a7c1a0d080")
+	)
+	(gr_line
 		(start 112.5 30)
 		(end 112.5 230)
 		(stroke
@@ -858,6 +1192,26 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "8c92c860-19e9-44d0-b0ff-05c78c5b42ba")
+	)
+	(gr_line
+		(start 125 64.375)
+		(end 75 64.375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "8d21bd5d-e3ec-474e-8f49-c5c509bd18bd")
+	)
+	(gr_line
+		(start 50 130)
+		(end 50 173.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "906855b8-b904-4a56-9769-45a9e02c5a7e")
 	)
 	(gr_line
 		(start 150 130)
@@ -890,6 +1244,16 @@
 		(uuid "9ae09c50-5683-4f34-bf45-9e82bad261d3")
 	)
 	(gr_line
+		(start 75 151.875)
+		(end 50 151.875)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a3c87c52-79d9-4829-a364-8e459c9952a5")
+	)
+	(gr_line
 		(start 150 217.5)
 		(end 100 130)
 		(stroke
@@ -898,6 +1262,16 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "a7771c1e-57b4-4851-b876-1dbd63b4ff87")
+	)
+	(gr_line
+		(start 125 151.875)
+		(end 75 151.875)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "afa3834a-ca55-4730-bef1-cb4c6308661d")
 	)
 	(gr_line
 		(start 150 42.5)
@@ -920,6 +1294,16 @@
 		(uuid "c2526609-3c42-4cee-a691-9962bf5f886d")
 	)
 	(gr_line
+		(start 125 195.625)
+		(end 150 195.625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "cbe246bc-5670-44aa-adc9-a2ebe7be9f54")
+	)
+	(gr_line
 		(start 50 42.5)
 		(end 100 86.25)
 		(stroke
@@ -938,6 +1322,26 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "d3eb6baa-1374-4b7b-b92d-68a3e56ab8d3")
+	)
+	(gr_line
+		(start 75 195.625)
+		(end 50 195.625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d40ad791-f746-4e86-9915-44b53ab33026")
+	)
+	(gr_line
+		(start 50 42.5)
+		(end 150 42.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e3922217-92db-4b99-86d7-c8f46bc98bca")
 	)
 	(gr_line
 		(start 137.5 230)
@@ -991,14 +1395,15 @@
 		(layer "User.9")
 		(uuid "96e34555-ff9c-49c9-a3bd-6fdb76e92106")
 	)
-	(gr_text "JLCJLCJLCJLC"
-		(at 75 227 0)
+	(gr_text "Mk1.0 - Month Year"
+		(at 100 223 0)
 		(layer "B.SilkS")
-		(uuid "5eac1370-26cd-4eb3-97a0-33c11fc5f8eb")
+		(uuid "6a59b04e-f37b-4115-bfa9-176980e8993a")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -1161,8 +1566,25 @@
 			(pts
 				(xy 149.442539 30.520185) (xy 149.488294 30.572989) (xy 149.4995 30.6245) (xy 149.4995 229.3755)
 				(xy 149.479815 229.442539) (xy 149.427011 229.488294) (xy 149.3755 229.4995) (xy 50.6245 229.4995)
-				(xy 50.557461 229.479815) (xy 50.511706 229.427011) (xy 50.5005 229.3755) (xy 50.5005 30.6245) (xy 50.520185 30.557461)
-				(xy 50.572989 30.511706) (xy 50.6245 30.5005) (xy 149.3755 30.5005)
+				(xy 50.557461 229.479815) (xy 50.511706 229.427011) (xy 50.5005 229.3755) (xy 50.5005 135.047844)
+				(xy 52 135.047844) (xy 52.006401 135.107372) (xy 52.006403 135.107379) (xy 52.056645 135.242086)
+				(xy 52.056649 135.242093) (xy 52.142809 135.357187) (xy 52.142812 135.35719) (xy 52.257906 135.44335)
+				(xy 52.257913 135.443354) (xy 52.39262 135.493596) (xy 52.392627 135.493598) (xy 52.452155 135.499999)
+				(xy 52.452172 135.5) (xy 54.75 135.5) (xy 55.25 135.5) (xy 57.547828 135.5) (xy 57.547844 135.499999)
+				(xy 57.607372 135.493598) (xy 57.607379 135.493596) (xy 57.742086 135.443354) (xy 57.742093 135.44335)
+				(xy 57.857187 135.35719) (xy 57.85719 135.357187) (xy 57.94335 135.242093) (xy 57.943354 135.242086)
+				(xy 57.993596 135.107379) (xy 57.993598 135.107372) (xy 57.999999 135.047844) (xy 58 135.047827)
+				(xy 58 130.25) (xy 55.25 130.25) (xy 55.25 135.5) (xy 54.75 135.5) (xy 54.75 130.25) (xy 52 130.25)
+				(xy 52 135.047844) (xy 50.5005 135.047844) (xy 50.5005 124.952155) (xy 52 124.952155) (xy 52 129.75)
+				(xy 54.75 129.75) (xy 55.25 129.75) (xy 58 129.75) (xy 58 124.952172) (xy 57.999999 124.952155)
+				(xy 57.993598 124.892627) (xy 57.993596 124.89262) (xy 57.943354 124.757913) (xy 57.94335 124.757906)
+				(xy 57.85719 124.642812) (xy 57.857187 124.642809) (xy 57.742093 124.556649) (xy 57.742086 124.556645)
+				(xy 57.607379 124.506403) (xy 57.607372 124.506401) (xy 57.547844 124.5) (xy 55.25 124.5) (xy 55.25 129.75)
+				(xy 54.75 129.75) (xy 54.75 124.5) (xy 52.452155 124.5) (xy 52.392627 124.506401) (xy 52.39262 124.506403)
+				(xy 52.257913 124.556645) (xy 52.257906 124.556649) (xy 52.142812 124.642809) (xy 52.142809 124.642812)
+				(xy 52.056649 124.757906) (xy 52.056645 124.757913) (xy 52.006403 124.89262) (xy 52.006401 124.892627)
+				(xy 52 124.952155) (xy 50.5005 124.952155) (xy 50.5005 30.6245) (xy 50.520185 30.557461) (xy 50.572989 30.511706)
+				(xy 50.6245 30.5005) (xy 149.3755 30.5005)
 			)
 		)
 	)

@@ -126,6 +126,17 @@
 	)
 	(net 0 "")
 	(gr_rect
+		(start 95 212.75)
+		(end 105 214.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "25d5093d-a66b-4d27-80d1-570cdcc8937b")
+	)
+	(gr_rect
 		(start 52 42.5)
 		(end 148 217.5)
 		(stroke
@@ -147,14 +158,15 @@
 		(layer "User.9")
 		(uuid "00a9661b-bc4e-493a-9a57-d5b24a34753b")
 	)
-	(gr_text "JLCJLCJLCJLC"
-		(at 100 45 0)
+	(gr_text "Mk1.0 - Month Year"
+		(at 100 216.25 0)
 		(layer "B.SilkS")
-		(uuid "8ace6051-680f-400e-a35e-9f3e47b2e4c8")
+		(uuid "63c8ad94-a0f8-460c-ac3a-e449a72cd50c")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.25)
+				(bold yes)
 			)
 			(justify mirror)
 		)

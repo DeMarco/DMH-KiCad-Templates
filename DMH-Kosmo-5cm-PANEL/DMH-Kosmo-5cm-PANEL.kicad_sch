@@ -32,7 +32,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SynthStuff:MountingHole_Slotted_Rails"
+			(property "Footprint" "SynthStuff:MountingHole_Rails"
 				(at 0 0 0)
 				(effects
 					(font
@@ -95,6 +95,127 @@
 					(at 0 -2.54 90)
 					(length 2.54)
 					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SynthStuff:Panel_GND_Solder_Wire_Pad"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Panel_GND_Solder_Wire_Pad"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:Panel_GND_SolderWirePad_5x10mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder pad to allow connection between PCB and Front Panel"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Function" "Panel GND"
+				(at 0 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(italic yes)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Panel_GND_Solder_Wire_Pad_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_out line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -209,6 +330,18 @@
 		)
 	)
 	(junction
+		(at 34.29 269.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1213b18d-ec38-4781-9097-c5483d6514a5")
+	)
+	(junction
+		(at 45.72 269.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2993be9b-8db5-4969-bef1-77c3dd7ea0f9")
+	)
+	(junction
 		(at 27.94 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -219,22 +352,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0b942ae-d88d-40bf-b11e-c3792fb96421")
-	)
-	(junction
-		(at 24.13 259.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2018d75-c4b0-48f4-ae33-12cf1049ebe1")
-	)
-	(wire
-		(pts
-			(xy 55.88 259.08) (xy 27.94 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d3cdfe4-b50e-42bd-99a1-b5a0e8520c21")
 	)
 	(wire
 		(pts
@@ -248,7 +365,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 259.08) (xy 24.13 259.08)
+			(xy 27.94 259.08) (xy 55.88 259.08)
 		)
 		(stroke
 			(width 0)
@@ -278,23 +395,23 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 260.35) (xy 20.32 259.08)
+			(xy 45.72 269.24) (xy 45.72 273.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65abca6d-ad62-423e-9880-f0b9f69a3148")
+		(uuid "6364f663-6ea3-4777-8c4f-cc9ddca18b53")
 	)
 	(wire
 		(pts
-			(xy 24.13 259.08) (xy 27.94 259.08)
+			(xy 34.29 269.24) (xy 34.29 273.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71273810-a1ba-4a11-84f2-2752663578ca")
+		(uuid "6524026c-1213-450f-8958-ed1fa733cd84")
 	)
 	(wire
 		(pts
@@ -318,6 +435,26 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 269.24) (xy 34.29 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939b65f0-fa8f-410d-8ede-74aeee02bc30")
+	)
+	(wire
+		(pts
+			(xy 27.94 259.08) (xy 24.13 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1e0e0a-1101-4a68-a818-c32fe1aea614")
+	)
+	(wire
+		(pts
 			(xy 27.94 259.08) (xy 27.94 257.81)
 		)
 		(stroke
@@ -328,13 +465,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 269.24) (xy 27.94 269.24)
+			(xy 55.88 269.24) (xy 45.72 269.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e282a678-125e-4022-a288-57a522e7c2c9")
+	)
+	(wire
+		(pts
+			(xy 34.29 269.24) (xy 27.94 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5936c9a-c9be-4889-9a56-7f26d2cee9b4")
 	)
 	(symbol
 		(lib_id "SynthStuff:MountingHole_Rails")
@@ -364,7 +511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:MountingHole_Slotted_Rails"
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
 			(at 55.88 255.27 0)
 			(effects
 				(font
@@ -405,7 +552,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 20.32 260.35 0)
+		(at 34.29 273.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -414,7 +561,7 @@
 		(fields_autoplaced yes)
 		(uuid "64186cdb-2bf5-4171-9541-9336137542e9")
 		(property "Reference" "#PWR01"
-			(at 20.32 266.7 0)
+			(at 34.29 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -423,7 +570,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.32 265.43 0)
+			(at 34.29 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -431,7 +578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 260.35 0)
+			(at 34.29 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -440,7 +587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 260.35 0)
+			(at 34.29 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +596,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 260.35 0)
+			(at 34.29 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -497,7 +644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:MountingHole_Slotted_Rails"
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
 			(at 27.94 265.43 0)
 			(effects
 				(font
@@ -564,7 +711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:MountingHole_Slotted_Rails"
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
 			(at 55.88 265.43 0)
 			(effects
 				(font
@@ -604,6 +751,85 @@
 		)
 	)
 	(symbol
+		(lib_id "SynthStuff:Panel_GND_Solder_Wire_Pad")
+		(at 45.72 278.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed5f3b92-462f-4574-b5e9-7850038d93bd")
+		(property "Reference" "J0"
+			(at 48.26 275.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Panel_GND_Solder_Wire_Pad"
+			(at 48.26 278.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Panel_GND_SolderWirePad_5x10mm"
+			(at 45.72 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder pad to allow connection between PCB and Front Panel"
+			(at 45.72 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "Panel GND"
+			(at 48.26 280.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6c865972-c4c8-40c5-b437-8bd18fc64fc0")
+		)
+		(instances
+			(project ""
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "J0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SynthStuff:MountingHole_Rails")
 		(at 27.94 255.27 0)
 		(unit 1)
@@ -631,7 +857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:MountingHole_Slotted_Rails"
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
 			(at 27.94 255.27 0)
 			(effects
 				(font
