@@ -11,8 +11,8 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 260.35 16.51)
-		(size 20.32 27.94)
+		(at 127 88.9)
+		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -23,7 +23,7 @@
 		)
 		(uuid "0cdf34b2-39cd-4d9e-981a-97cd34791509")
 		(property "Sheetname" "Power"
-			(at 260.35 15.7984 0)
+			(at 127 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 260.35 45.0346 0)
+			(at 127 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,7 +42,7 @@
 			)
 		)
 		(pin "Bus Gate" output
-			(at 260.35 25.4 180)
+			(at 127 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,7 +52,7 @@
 			(uuid "35434339-bc2b-4868-9a18-95483283b276")
 		)
 		(pin "Bus CV" output
-			(at 260.35 34.29 180)
+			(at 127 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70,8 +70,8 @@
 		)
 	)
 	(sheet
-		(at 120.65 80.01)
-		(size 41.91 38.1)
+		(at 63.5 76.2)
+		(size 50.8 50.8)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -82,7 +82,7 @@
 		)
 		(uuid "7ad2d702-dfb7-4d49-a82d-34430dd5948f")
 		(property "Sheetname" "Core Circuit"
-			(at 120.65 79.2984 0)
+			(at 63.5 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,7 +91,7 @@
 			)
 		)
 		(property "Sheetfile" "Core_Circuit.kicad_sch"
-			(at 120.65 118.6946 0)
+			(at 63.5 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,8 +109,8 @@
 		)
 	)
 	(sheet
-		(at 17.78 17.78)
-		(size 20.32 118.11)
+		(at 25.4 76.2)
+		(size 25.4 50.8)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -121,7 +121,7 @@
 		)
 		(uuid "ce3fef8b-9f1d-4178-b50b-4a046c030679")
 		(property "Sheetname" "Inputs and Outputs"
-			(at 17.78 17.0684 0)
+			(at 25.4 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +130,7 @@
 			)
 		)
 		(property "Sheetfile" "Inputs_and_Outputs.kicad_sch"
-			(at 17.78 136.4746 0)
+			(at 25.4 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
