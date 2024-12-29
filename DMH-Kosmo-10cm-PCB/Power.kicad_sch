@@ -4182,9 +4182,9 @@
 		(at 152.4 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "61233aee-82ca-4908-a5ab-cdac5eb98535")
 		(property "Reference" "J0"
 			(at 147.32 177.8 90)
