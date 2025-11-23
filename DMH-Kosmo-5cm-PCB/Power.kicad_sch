@@ -423,6 +423,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SB140"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SB140"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SB140_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SB140_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SynthStuff:Eurorack_Power_Connector_10Pin"
 			(pin_names
 				(offset 1.016)
@@ -1345,306 +1495,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SynthStuff:Power_Bus_Schotty_+"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SB140+"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Power_Bus_Schotty_+_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Power_Bus_Schotty_+_1_1"
-				(pin power_out line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SynthStuff:Power_Bus_Schotty_-"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SB140-"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Power_Bus_Schotty_-_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Power_Bus_Schotty_-_1_1"
-				(pin power_in line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -2097,6 +1947,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Delete what's not needed!"
 		(exclude_from_sim yes)
@@ -2134,6 +2085,12 @@
 		(uuid "16d608ea-93c0-4d0d-804a-a1f7d887af6f")
 	)
 	(junction
+		(at 88.9 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17ae6807-f02c-4d53-903f-3594a608dcf9")
+	)
+	(junction
 		(at 25.4 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2152,10 +2109,22 @@
 		(uuid "1f3b9f20-782b-4ac4-99cc-b1d837f164c2")
 	)
 	(junction
+		(at 36.83 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2150ef87-1c47-44b2-b5b6-fd059cdf7269")
+	)
+	(junction
 		(at 33.02 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "287e81f9-8ca9-44b0-b7a3-a149c3080b2d")
+	)
+	(junction
+		(at 63.5 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33495cf0-0d10-4408-b7f0-9ffa44305b4d")
 	)
 	(junction
 		(at 25.4 120.65)
@@ -2194,6 +2163,12 @@
 		(uuid "635b7119-b5eb-4fe1-bafc-f140204b6400")
 	)
 	(junction
+		(at 116.84 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68f5b515-0f5b-46b6-8d72-09bf0c6c2a2a")
+	)
+	(junction
 		(at 38.1 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2230,6 +2205,12 @@
 		(uuid "8f110604-194d-4c38-adc6-a75be285af0f")
 	)
 	(junction
+		(at 63.5 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90156e07-ef23-4f1a-b003-761bf5f364d7")
+	)
+	(junction
 		(at 96.52 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2240,6 +2221,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f3699f5-10b3-4d2c-b7ba-b6a3f2d2cf12")
+	)
+	(junction
+		(at 63.5 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2580f2f-10c1-4a88-b2ae-ac76bd296d2f")
 	)
 	(junction
 		(at 25.4 95.25)
@@ -2260,6 +2247,12 @@
 		(uuid "bc467fc1-18c1-4943-bfc1-5aeba51a07a7")
 	)
 	(junction
+		(at 116.84 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf7dde16-1b70-4f1a-adba-41a73a0679a1")
+	)
+	(junction
 		(at 38.1 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2267,7 +2260,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 175.26) (xy 109.22 175.26)
+			(xy 96.52 175.26) (xy 102.87 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2417,6 +2410,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 175.26) (xy 119.38 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e504c8-875e-45a2-a70b-d16995bd862d")
+	)
+	(wire
+		(pts
 			(xy 81.28 177.8) (xy 82.55 177.8)
 		)
 		(stroke
@@ -2467,7 +2470,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 185.42) (xy 119.38 185.42)
+			(xy 63.5 175.26) (xy 66.04 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e923a8f-b29c-42e1-9f6b-91c3272eb1d8")
+	)
+	(wire
+		(pts
+			(xy 110.49 185.42) (xy 116.84 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2497,6 +2510,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 185.42) (xy 66.04 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36648517-8cad-40f0-83b0-730eae86281d")
+	)
+	(wire
+		(pts
 			(xy 19.05 180.34) (xy 13.97 180.34)
 		)
 		(stroke
@@ -2504,6 +2527,16 @@
 			(type default)
 		)
 		(uuid "36d40c7d-34e6-4e98-989b-15e734487224")
+	)
+	(wire
+		(pts
+			(xy 88.9 189.23) (xy 97.79 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381d36d3-9887-450a-bfff-c82d0c81656e")
 	)
 	(wire
 		(pts
@@ -2567,6 +2600,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 185.42) (xy 119.38 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b17d29-6e0d-4a41-80d6-39a6d456aee6")
+	)
+	(wire
+		(pts
 			(xy 38.1 41.91) (xy 38.1 55.88)
 		)
 		(stroke
@@ -2604,6 +2647,16 @@
 			(type default)
 		)
 		(uuid "52393c6b-4c92-4760-a6b1-7f05c9642c64")
+	)
+	(wire
+		(pts
+			(xy 88.9 189.23) (xy 88.9 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52bab842-48c6-4284-a76e-8112186db088")
 	)
 	(wire
 		(pts
@@ -2727,6 +2780,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 162.56) (xy 36.83 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667a3a06-d13e-4969-8270-35f486631c56")
+	)
+	(wire
+		(pts
 			(xy 31.75 193.04) (xy 33.02 193.04)
 		)
 		(stroke
@@ -2847,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 175.26) (xy 59.69 175.26)
+			(xy 57.15 175.26) (xy 63.5 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2857,7 +2920,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 185.42) (xy 59.69 185.42)
+			(xy 57.15 185.42) (xy 63.5 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2907,7 +2970,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 175.26) (xy 119.38 175.26)
+			(xy 110.49 175.26) (xy 116.84 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3027,16 +3090,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 180.34) (xy 100.33 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad8c1d6b-4e30-48f1-b22c-3e17f93b250d")
-	)
-	(wire
-		(pts
 			(xy 17.78 195.58) (xy 33.02 195.58)
 		)
 		(stroke
@@ -3057,6 +3110,26 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 165.1) (xy 40.64 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b449f0cd-2539-4884-a69f-1dae0be7b48a")
+	)
+	(wire
+		(pts
+			(xy 63.5 195.58) (xy 66.04 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4772ee2-d3dd-4285-a3ab-acdb467c76b7")
+	)
+	(wire
+		(pts
 			(xy 16.51 196.85) (xy 34.29 196.85)
 		)
 		(stroke
@@ -3067,7 +3140,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 189.23) (xy 97.79 189.23)
+			(xy 80.01 189.23) (xy 88.9 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3107,7 +3180,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 195.58) (xy 59.69 195.58)
+			(xy 57.15 195.58) (xy 63.5 195.58)
 		)
 		(stroke
 			(width 0)
@@ -3217,16 +3290,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 180.34) (xy 39.37 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3fb1572-4aad-41e5-beea-43b9c1f693a8")
-	)
-	(wire
-		(pts
 			(xy 31.75 177.8) (xy 36.83 177.8)
 		)
 		(stroke
@@ -3297,7 +3360,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 185.42) (xy 109.22 185.42)
+			(xy 96.52 185.42) (xy 102.87 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3346,6 +3409,166 @@
 			(justify left)
 		)
 		(uuid "46079bc4-d1c6-4414-9788-6bc5d968429d")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 44.45 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eaa3f19-d9fe-4fff-a5c9-8f8b59aa670b")
+		(property "Netclass" "Power"
+			(at 45.1485 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 100.33 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28e0c844-9afa-4ede-96ab-b2df9dd8c175")
+		(property "Netclass" "Power"
+			(at 101.0285 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -6.35 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 44.45 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49c836ad-4719-4fc7-9083-fd5ce564e346")
+		(property "Netclass" "Power"
+			(at 45.1485 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -62.23 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 100.33 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88be7ce8-f79c-4725-be29-d54a2d59e5db")
+		(property "Netclass" "Power"
+			(at 101.0285 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -6.35 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 48.26 195.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a07b201c-80d3-45ae-8641-96599900f3d9")
+		(property "Netclass" "Power"
+			(at 45.72 194.8815 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 2.54 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3412,6 +3635,72 @@
 			(project "DMH-Kosmo-10cm-PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 63.5 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e030797-00fd-44c4-a650-917c886637e8")
+		(property "Reference" "#FLG01"
+			(at 63.5 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 63.5 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92a72445-1f80-481d-90a7-3c3239c8ee9b")
+		)
+		(instances
+			(project ""
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -3621,7 +3910,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 59.69 185.42 270)
+		(at 66.04 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3630,7 +3919,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cbec9e9-0742-4233-8e3c-5ecc8d48936d")
 		(property "Reference" "#PWR02"
-			(at 55.88 185.42 0)
+			(at 62.23 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3928,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 63.5 185.4199 90)
+			(at 69.85 185.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3937,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 185.42 0)
+			(at 66.04 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +3946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 185.42 0)
+			(at 66.04 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3955,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 59.69 185.42 0)
+			(at 66.04 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,16 +4252,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 180.34 90)
+		(at 40.64 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ba90996-2c25-47bd-baed-00e42f774cc3")
 		(property "Reference" "#PWR04"
-			(at 45.72 180.34 0)
+			(at 40.64 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,16 +4269,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 180.3399 90)
+			(at 38.608 169.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 180.34 0)
+			(at 40.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +4287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 180.34 0)
+			(at 40.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +4296,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 180.34 0)
+			(at 40.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +4308,7 @@
 			(uuid "b0bb8fd9-9bc5-40b4-ba27-009cad953148")
 		)
 		(instances
-			(project "DMH-Kosmo-10cm-PCB"
+			(project "DMH-Kosmo-5cm-PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#PWR04")
 					(unit 1)
@@ -4187,6 +4475,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 63.5 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b36f10e-4702-4029-ac4f-bd8c6b49711f")
+		(property "Reference" "#FLG02"
+			(at 63.5 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 63.5 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 63.5 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2187a505-4712-4ddd-a130-f6322013b68d")
+		)
+		(instances
+			(project ""
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 152.4 189.23 0)
 		(unit 1)
@@ -4254,7 +4608,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 59.69 195.58 270)
+		(at 66.04 195.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4263,7 +4617,7 @@
 		(fields_autoplaced yes)
 		(uuid "51b69450-8e1c-43e2-9cdd-ee0126422db4")
 		(property "Reference" "#PWR03"
-			(at 55.88 195.58 0)
+			(at 62.23 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +4626,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 63.5 195.5799 90)
+			(at 69.85 195.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 195.58 0)
+			(at 66.04 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 195.58 0)
+			(at 66.04 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4653,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 59.69 195.58 0)
+			(at 66.04 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,6 +4668,140 @@
 			(project "DMH-Kosmo-10cm-PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 63.5 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a00ecca-0bd9-4b91-9543-1d9dae949984")
+		(property "Reference" "#FLG03"
+			(at 63.5 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 63.5 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 63.5 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1255aba7-2918-46ab-ab7b-a3c6f42460f7")
+		)
+		(instances
+			(project ""
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SB140")
+		(at 53.34 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63f94989-0e2e-4df9-8148-bee7c0512fe0")
+		(property "Reference" "D3"
+			(at 53.0225 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SB140"
+			(at 53.0225 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 53.34 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+			(at 53.34 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 53.34 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae1031e8-4fb4-4994-991b-644d3d61eaa9")
+		)
+		(pin "2"
+			(uuid "64aed6c2-0cd3-4708-bfbe-235c5122f127")
+		)
+		(instances
+			(project ""
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4384,6 +4872,208 @@
 			(project "DMH-Kosmo-10cm-PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 116.84 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fc8e9ad-f3c3-4e1a-b3d3-5267fd6ddad8")
+		(property "Reference" "#FLG05"
+			(at 116.84 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 116.84 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 116.84 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0640197d-ec5c-42e9-a3d2-78bc3c2b81ef")
+		)
+		(instances
+			(project "DMH-Kosmo-5cm-PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SB140")
+		(at 53.34 185.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8622fdbc-3c22-4347-adef-1cf48ea75bc0")
+		(property "Reference" "D4"
+			(at 53.6575 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SB140"
+			(at 53.6575 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 53.34 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+			(at 53.34 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 53.34 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7434524f-06be-4e40-8834-2d5a5c4faae0")
+		)
+		(pin "2"
+			(uuid "59bb963a-d8dc-4e5b-97ff-0835ec19697b")
+		)
+		(instances
+			(project "DMH-Kosmo-5cm-PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SB140")
+		(at 53.34 195.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a7eec2e-b9fc-4bc8-bcb7-d70b86c42667")
+		(property "Reference" "D5"
+			(at 53.6575 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SB140"
+			(at 53.6575 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 53.34 191.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+			(at 53.34 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 53.34 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f535c28-0770-437d-8f4e-41f047039203")
+		)
+		(pin "2"
+			(uuid "921b77fb-d95e-47f8-8102-a244b3880ee7")
+		)
+		(instances
+			(project "DMH-Kosmo-5cm-PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4527,7 +5217,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 59.69 175.26 270)
+		(at 66.04 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4536,7 +5226,7 @@
 		(fields_autoplaced yes)
 		(uuid "973b74a4-e11f-49c2-a00e-ebbc184f9f27")
 		(property "Reference" "#PWR01"
-			(at 55.88 175.26 0)
+			(at 62.23 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +5235,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 63.5 175.2599 90)
+			(at 69.85 175.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +5244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 175.26 0)
+			(at 66.04 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +5253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 175.26 0)
+			(at 66.04 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +5262,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 59.69 175.26 0)
+			(at 66.04 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,278 +5415,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:Power_Bus_Schotty_+")
-		(at 113.03 185.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afcc00aa-3a62-48c9-9a4f-17a08273dc96")
-		(property "Reference" "D1"
-			(at 113.3475 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SB140+"
-			(at 113.3475 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 113.03 180.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
-			(at 113.03 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 113.03 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e7cb8e0b-4ade-4231-84e1-940d8c19665d")
-		)
-		(pin "1"
-			(uuid "b0e353e0-6f32-49a5-9069-302adac6f087")
-		)
-		(instances
-			(project "DMH-Kosmo-5cm-PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:Power_Bus_Schotty_-")
-		(at 53.34 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2022db7-b786-4665-91b6-588e3ae05656")
-		(property "Reference" "D4"
-			(at 53.0225 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SB140-"
-			(at 53.0225 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 53.34 179.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
-			(at 53.34 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 53.34 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "01c002ed-5d5f-4231-ab37-fec8eabb5f85")
-		)
-		(pin "1"
-			(uuid "6a0f5c1c-2352-4d55-8794-3a7ad0403503")
-		)
-		(instances
-			(project "DMH-Kosmo-10cm-PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:Power_Bus_Schotty_+")
-		(at 53.34 185.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2e88b90-6b1e-47f7-8302-1ee4f80c6df4")
-		(property "Reference" "D3"
-			(at 53.6575 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SB140+"
-			(at 53.6575 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 53.34 180.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
-			(at 53.34 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 53.34 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4cde6127-f2b4-4ee4-92ad-29f70ec9800f")
-		)
-		(pin "1"
-			(uuid "1a0b4e9b-c41e-4fc6-ad2b-b182e21049d4")
-		)
-		(instances
-			(project ""
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:Power_Bus_Schotty_+")
-		(at 53.34 195.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6b0dd0d-6a24-4d25-aa9d-c63d68b32d16")
-		(property "Reference" "D5"
-			(at 53.6575 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SB140+"
-			(at 53.6575 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 53.34 191.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
-			(at 53.34 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 53.34 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "76560a24-18d1-4514-90af-4f78cf33b8ab")
-		)
-		(pin "1"
-			(uuid "baf562f8-b5ce-4cde-a100-af00cf7703d2")
-		)
-		(instances
-			(project "DMH-Kosmo-10cm-PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 38.1 38.1 0)
 		(unit 1)
@@ -5061,6 +5479,140 @@
 			(project "DMH-Kosmo-10cm-PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 116.84 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d72b6a9e-514c-470a-9a5a-0182b95c1f5f")
+		(property "Reference" "#FLG04"
+			(at 116.84 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 116.84 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 116.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf6951b3-2d09-498b-864a-0c08ba8fd68a")
+		)
+		(instances
+			(project "DMH-Kosmo-5cm-PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SB140")
+		(at 106.68 185.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df42c66b-fad8-4e6c-b76d-4647840a8b71")
+		(property "Reference" "D2"
+			(at 106.9975 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SB140"
+			(at 106.9975 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 106.68 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+			(at 106.68 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 106.68 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2d31472-082f-42ad-b3fa-0e45d7319f4b")
+		)
+		(pin "2"
+			(uuid "11127094-ccb6-4773-b70c-68334874e2b4")
+		)
+		(instances
+			(project "DMH-Kosmo-5cm-PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5270,25 +5822,25 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:Power_Bus_Schotty_-")
-		(at 113.03 175.26 0)
+		(lib_id "Diode:SB140")
+		(at 106.68 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f739b540-f531-48c2-9da2-1846171734a1")
-		(property "Reference" "D2"
-			(at 112.7125 168.91 0)
+		(uuid "f677537c-673a-4dbc-b364-fcd0643103bd")
+		(property "Reference" "D1"
+			(at 106.3625 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SB140-"
-			(at 112.7125 171.45 0)
+		(property "Value" "SB140"
+			(at 106.3625 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +5848,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 113.03 179.705 0)
+			(at 106.68 179.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5857,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
-			(at 113.03 175.26 0)
+			(at 106.68 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,7 +5866,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 113.03 175.26 0)
+			(at 106.68 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,16 +5874,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "fd5d9a46-1cc8-4850-85e3-56d384c0be48")
-		)
 		(pin "1"
-			(uuid "3a43cec8-a61b-40d3-b18e-c5ae78f15b88")
+			(uuid "cd6b5fd8-3092-44f6-9218-c5220528fc40")
+		)
+		(pin "2"
+			(uuid "bfb4d5d7-6558-4dbe-90a0-7610813ccb3a")
 		)
 		(instances
 			(project "DMH-Kosmo-5cm-PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5523,16 +6075,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 180.34 90)
+		(at 88.9 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fbc182ad-6349-41f4-ae6e-f7a79ed37888")
 		(property "Reference" "#PWR07"
-			(at 106.68 180.34 0)
+			(at 88.9 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,16 +6092,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 180.3399 90)
+			(at 86.868 194.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 180.34 0)
+			(at 88.9 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +6110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 180.34 0)
+			(at 88.9 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,7 +6119,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 180.34 0)
+			(at 88.9 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
