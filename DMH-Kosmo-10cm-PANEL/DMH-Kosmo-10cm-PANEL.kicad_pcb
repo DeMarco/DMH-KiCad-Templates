@@ -1344,7 +1344,7 @@
 		(uuid "4de70210-35f9-4bd7-9bf5-072b2331b922")
 		(effects
 			(font
-				(face "Nulshock Rg")
+				(face "Nulshock")
 				(size 8 8)
 				(thickness 0.8)
 				(bold yes)
@@ -1413,7 +1413,7 @@
 		(uuid "f5a44cca-09dc-455b-af88-a81953519abe")
 		(effects
 			(font
-				(face "Nulshock Rg")
+				(face "Nulshock")
 				(size 3.5 3.5)
 				(thickness 0.875)
 			)
