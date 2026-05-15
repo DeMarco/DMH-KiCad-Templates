@@ -2330,12 +2330,6 @@
 		(uuid "816085ad-4385-4ac0-b2f0-ad45c8142327")
 	)
 	(junction
-		(at 38.1 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85bbe2e2-1a21-411f-860c-4f376b11dd4a")
-	)
-	(junction
 		(at 63.5 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2396,12 +2390,6 @@
 		(uuid "caba8c06-527f-489d-8d79-10ead139fd1f")
 	)
 	(junction
-		(at 38.1 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8b6918a-8ce8-4ee4-a2f5-967ad292ad59")
-	)
-	(junction
 		(at 36.83 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2457,7 +2445,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 55.88) (xy 172.72 55.88)
+			(xy 25.4 55.88) (xy 172.72 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2697,16 +2685,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 20.32) (xy 38.1 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fb5a1ce-57e0-4794-a5ff-97cf167049bb")
-	)
-	(wire
-		(pts
 			(xy 25.4 95.25) (xy 25.4 104.14)
 		)
 		(stroke
@@ -2724,16 +2702,6 @@
 			(type default)
 		)
 		(uuid "45dcc64a-a898-40ab-97b7-1e5da2ff8be8")
-	)
-	(wire
-		(pts
-			(xy 38.1 41.91) (xy 38.1 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e90e60f-2d3e-41a4-9d1e-4aaaf7478470")
 	)
 	(wire
 		(pts
@@ -2907,7 +2875,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 20.32) (xy 38.1 20.32)
+			(xy 25.4 20.32) (xy 172.72 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3267,16 +3235,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 55.88) (xy 38.1 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8b0f4db-d23c-484c-b855-575379e6a7a3")
-	)
-	(wire
-		(pts
 			(xy 97.79 180.34) (xy 100.33 180.34)
 		)
 		(stroke
@@ -3294,16 +3252,6 @@
 			(type default)
 		)
 		(uuid "bea812f8-2b8d-4d88-9c2f-0174946da646")
-	)
-	(wire
-		(pts
-			(xy 38.1 20.32) (xy 172.72 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beb03853-60e1-4389-879e-988f42549c3e")
 	)
 	(wire
 		(pts
@@ -5977,88 +5925,6 @@
 			(project "DMH-Kosmo-10cm-PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 38.1 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2da3939-c9a4-43ee-a7d9-ddf2531e594d")
-		(property "Reference" "C6"
-			(at 41.91 36.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 41.91 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 39.0652 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 38.1 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6852d920-3cba-40c8-b252-7c8a736cf219")
-		)
-		(pin "1"
-			(uuid "a92321c0-abf8-4288-8156-a6b8149e7068")
-		)
-		(instances
-			(project "DMH-Kosmo-10cm-PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "C6")
 					(unit 1)
 				)
 			)

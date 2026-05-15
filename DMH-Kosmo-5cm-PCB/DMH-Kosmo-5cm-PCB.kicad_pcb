@@ -149,8 +149,8 @@
 		(uuid "de47ead9-8b5d-4bcb-ad80-ddf34a004046")
 	)
 	(gr_rect
-		(start 51 42.5)
-		(end 99 217.5)
+		(start 50.5 42.5)
+		(end 99.5 217.5)
 		(stroke
 			(width 0.05)
 			(type default)
