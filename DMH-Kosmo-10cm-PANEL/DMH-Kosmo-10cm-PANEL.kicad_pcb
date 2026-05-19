@@ -198,7 +198,13 @@
 		(path "/ab447e37-c473-44f9-b580-278261ee12b1")
 		(sheetname "/")
 		(sheetfile "DMH-Kosmo-10cm-PANEL.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -240,7 +246,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "input")
 			(zone_connect 2)
 			(uuid "d40aefb0-f523-4918-9f94-d319ee91d6ca")
@@ -306,7 +312,13 @@
 		(path "/0fdd41a5-c82a-40c3-8a4e-98f3ced84682")
 		(sheetname "/")
 		(sheetfile "DMH-Kosmo-10cm-PANEL.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -348,7 +360,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "input")
 			(zone_connect 2)
 			(uuid "a46d4ac3-fb32-43c7-92aa-4a2c948acca0")
@@ -414,7 +426,13 @@
 		(path "/ed2400b3-24fa-4438-9c25-79e03b5de385")
 		(sheetname "/")
 		(sheetfile "DMH-Kosmo-10cm-PANEL.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -456,7 +474,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "input")
 			(zone_connect 2)
 			(uuid "28e09e8c-413e-40c1-b60d-df67fe82f1c4")
@@ -535,7 +553,13 @@
 		(path "/fe1cb2e3-4f6f-454a-b749-40096bc46310")
 		(sheetname "/")
 		(sheetfile "DMH-Kosmo-10cm-PANEL.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -577,153 +601,10 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "input")
 			(zone_connect 2)
 			(uuid "625aa308-aa3d-4736-a5b4-b55564835fcd")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "SynthStuff:Panel_GND_SolderWirePad_5x10mm"
-		(layer "B.Cu")
-		(uuid "0a7aa282-64da-431c-8e0c-aac63d85a053")
-		(at 55 130 180)
-		(descr "Wire Pad, Square, SMD Pad,  5mm x 10mm,")
-		(tags "MesurementPoint Square SMDPad 5mmx10mm ")
-		(property "Reference" "J0"
-			(at 0 3.81 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "9511b071-d306-4519-a097-9e7460d5713e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "Panel_GND_Solder_Wire_Pad"
-			(at 0 -6.35 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "69cb9bec-70e7-4484-bb13-5262abfb0816")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2572ebab-d754-4587-8c04-75e62651bbb1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "Solder pad to allow connection between PCB and Front Panel"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0f76b4fe-dbb5-4306-bc14-92a3a9c0ac1d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Function" "GND"
-			(at 0 -6.75 0)
-			(layer "B.SilkS")
-			(uuid "4c1ee179-0c06-4abd-bb1a-4790d8acc931")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-					(bold yes)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/ef5ecaa4-eacb-4f08-95bc-f5cc86c071fd")
-		(sheetname "/")
-		(sheetfile "DMH-Kosmo-10cm-PANEL.kicad_sch")
-		(zone_connect 1)
-		(attr smd exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 2.75 5.25)
-			(end 2.75 -5.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "64f3fcb3-588a-4051-8220-383a069d957d")
-		)
-		(fp_line
-			(start 2.75 -5.25)
-			(end -2.75 -5.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "2c738706-0ca9-4064-a780-6c18ec67fa50")
-		)
-		(fp_line
-			(start -2.75 5.25)
-			(end 2.75 5.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "fe627593-c487-41bf-876f-4c170649b328")
-		)
-		(fp_line
-			(start -2.75 -5.25)
-			(end -2.75 5.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "552714a1-e28d-4b1c-bf90-ec6818a33d73")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(uuid "8f15f704-cf2b-4fee-b2e0-cf66094342c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "1" smd rect
-			(at 0 0 180)
-			(size 5 10)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "GND")
-			(pinfunction "Pin_1")
-			(pintype "power_out")
-			(uuid "2c2dc243-2c90-49fd-8151-16c38b2851ce")
 		)
 		(embedded_fonts no)
 	)
@@ -1340,8 +1221,8 @@
 		(uuid "7dd1922d-1080-452e-898c-2e6e7999fa77")
 	)
 	(gr_rect
-		(start 52 42.5)
-		(end 148 217.5)
+		(start 50.5 42.5)
+		(end 149.5 217.5)
 		(stroke
 			(width 0.05)
 			(type default)

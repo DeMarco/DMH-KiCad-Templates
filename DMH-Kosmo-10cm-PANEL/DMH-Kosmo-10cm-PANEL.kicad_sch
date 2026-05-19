@@ -391,32 +391,32 @@
 		)
 	)
 	(junction
-		(at 27.94 269.24)
+		(at 29.21 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90cd9c5b-2029-428e-8790-e91746db7e05")
 	)
 	(junction
-		(at 33.02 269.24)
+		(at 34.29 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99fbf2df-b71d-4d9c-9bc0-323864cd4cb7")
 	)
 	(junction
-		(at 48.26 269.24)
+		(at 49.53 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5c283b2-1070-485f-9247-b62af3291c37")
 	)
 	(junction
-		(at 27.94 259.08)
+		(at 29.21 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0b942ae-d88d-40bf-b11e-c3792fb96421")
 	)
 	(wire
 		(pts
-			(xy 55.88 267.97) (xy 55.88 269.24)
+			(xy 57.15 267.97) (xy 57.15 269.24)
 		)
 		(stroke
 			(width 0)
@@ -426,7 +426,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 259.08) (xy 55.88 259.08)
+			(xy 29.21 259.08) (xy 57.15 259.08)
 		)
 		(stroke
 			(width 0)
@@ -436,7 +436,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 269.24) (xy 27.94 267.97)
+			(xy 29.21 269.24) (xy 29.21 267.97)
 		)
 		(stroke
 			(width 0)
@@ -446,7 +446,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 269.24) (xy 27.94 269.24)
+			(xy 25.4 269.24) (xy 29.21 269.24)
 		)
 		(stroke
 			(width 0)
@@ -456,7 +456,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 269.24) (xy 48.26 273.05)
+			(xy 49.53 269.24) (xy 49.53 273.05)
 		)
 		(stroke
 			(width 0)
@@ -466,7 +466,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 259.08) (xy 27.94 259.08)
+			(xy 25.4 259.08) (xy 29.21 259.08)
 		)
 		(stroke
 			(width 0)
@@ -476,7 +476,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 269.24) (xy 33.02 273.05)
+			(xy 34.29 269.24) (xy 34.29 273.05)
 		)
 		(stroke
 			(width 0)
@@ -486,7 +486,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 259.08) (xy 24.13 269.24)
+			(xy 25.4 259.08) (xy 25.4 269.24)
 		)
 		(stroke
 			(width 0)
@@ -496,7 +496,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 257.81) (xy 55.88 259.08)
+			(xy 57.15 257.81) (xy 57.15 259.08)
 		)
 		(stroke
 			(width 0)
@@ -506,7 +506,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 259.08) (xy 27.94 257.81)
+			(xy 29.21 259.08) (xy 29.21 257.81)
 		)
 		(stroke
 			(width 0)
@@ -516,7 +516,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 269.24) (xy 55.88 269.24)
+			(xy 49.53 269.24) (xy 57.15 269.24)
 		)
 		(stroke
 			(width 0)
@@ -526,7 +526,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 269.24) (xy 33.02 269.24)
+			(xy 29.21 269.24) (xy 34.29 269.24)
 		)
 		(stroke
 			(width 0)
@@ -536,7 +536,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 269.24) (xy 48.26 269.24)
+			(xy 34.29 269.24) (xy 49.53 269.24)
 		)
 		(stroke
 			(width 0)
@@ -546,7 +546,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:MountingHole_Rails")
-		(at 55.88 255.27 0)
+		(at 57.15 255.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -557,7 +557,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fdd41a5-c82a-40c3-8a4e-98f3ced84682")
 		(property "Reference" "H2"
-			(at 58.42 252.7299 0)
+			(at 59.69 252.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -568,7 +568,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Rails"
-			(at 58.42 255.2699 0)
+			(at 59.69 255.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -579,7 +579,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:MountingHole_Rails"
-			(at 55.88 255.27 0)
+			(at 57.15 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -590,7 +590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 255.27 0)
+			(at 57.15 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -601,7 +601,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 55.88 255.27 0)
+			(at 57.15 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -625,7 +625,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 273.05 0)
+		(at 34.29 273.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -636,7 +636,7 @@
 		(fields_autoplaced yes)
 		(uuid "64186cdb-2bf5-4171-9541-9336137542e9")
 		(property "Reference" "#PWR01"
-			(at 33.02 279.4 0)
+			(at 34.29 279.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -647,7 +647,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 278.13 0)
+			(at 34.29 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -657,7 +657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 273.05 0)
+			(at 34.29 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -668,7 +668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 273.05 0)
+			(at 34.29 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -679,7 +679,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 273.05 0)
+			(at 34.29 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -703,7 +703,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:MountingHole_Rails")
-		(at 27.94 265.43 0)
+		(at 29.21 265.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -714,7 +714,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab447e37-c473-44f9-b580-278261ee12b1")
 		(property "Reference" "H3"
-			(at 30.48 262.8899 0)
+			(at 31.75 262.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -725,7 +725,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Rails"
-			(at 30.48 265.4299 0)
+			(at 31.75 265.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -736,7 +736,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:MountingHole_Rails"
-			(at 27.94 265.43 0)
+			(at 29.21 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -747,7 +747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 265.43 0)
+			(at 29.21 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -758,7 +758,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 27.94 265.43 0)
+			(at 29.21 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -782,7 +782,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:MountingHole_Rails")
-		(at 55.88 265.43 0)
+		(at 57.15 265.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -793,7 +793,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed2400b3-24fa-4438-9c25-79e03b5de385")
 		(property "Reference" "H4"
-			(at 58.42 262.8899 0)
+			(at 59.69 262.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -804,7 +804,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Rails"
-			(at 58.42 265.4299 0)
+			(at 59.69 265.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -815,7 +815,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:MountingHole_Rails"
-			(at 55.88 265.43 0)
+			(at 57.15 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -826,7 +826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 265.43 0)
+			(at 57.15 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -837,7 +837,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 55.88 265.43 0)
+			(at 57.15 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -861,18 +861,18 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:Panel_GND_Solder_Wire_Pad")
-		(at 48.26 278.13 270)
+		(at 49.53 278.13 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ef5ecaa4-eacb-4f08-95bc-f5cc86c071fd")
 		(property "Reference" "J0"
-			(at 50.8 275.5899 90)
+			(at 52.07 275.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -883,7 +883,7 @@
 			)
 		)
 		(property "Value" "Panel_GND_Solder_Wire_Pad"
-			(at 50.8 278.1299 90)
+			(at 52.07 278.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -894,7 +894,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:Panel_GND_SolderWirePad_5x10mm"
-			(at 48.26 278.13 0)
+			(at 49.53 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -905,7 +905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 278.13 0)
+			(at 49.53 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -916,7 +916,7 @@
 			)
 		)
 		(property "Description" "Solder pad to allow connection between PCB and Front Panel"
-			(at 48.26 278.13 0)
+			(at 49.53 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -927,7 +927,7 @@
 			)
 		)
 		(property "Function" "GND"
-			(at 50.8 280.67 90)
+			(at 52.07 280.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -954,7 +954,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:MountingHole_Rails")
-		(at 27.94 255.27 0)
+		(at 29.21 255.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -965,7 +965,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe1cb2e3-4f6f-454a-b749-40096bc46310")
 		(property "Reference" "H1"
-			(at 30.48 252.7299 0)
+			(at 31.75 252.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -976,7 +976,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Rails"
-			(at 30.48 255.2699 0)
+			(at 31.75 255.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -987,7 +987,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:MountingHole_Rails"
-			(at 27.94 255.27 0)
+			(at 29.21 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -998,7 +998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 255.27 0)
+			(at 29.21 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1009,7 +1009,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 27.94 255.27 0)
+			(at 29.21 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1020,7 +1020,7 @@
 			)
 		)
 		(property "Function" ""
-			(at 27.94 255.27 0)
+			(at 29.21 255.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
