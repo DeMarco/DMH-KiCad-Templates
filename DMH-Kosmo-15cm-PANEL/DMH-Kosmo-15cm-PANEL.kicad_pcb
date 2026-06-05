@@ -100,7 +100,7 @@
 		)
 		(capping no)
 		(filling no)
-		(grid_origin 50 30)
+		(grid_origin 25 30)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -141,15 +141,15 @@
 	(property "Function" "")
 	(footprint "SynthStuff:MountingHole_Rails"
 		(layer "F.Cu")
-		(uuid "1029714a-4850-4a89-a438-67c4405da68f")
-		(at 53.5 226.5)
+		(uuid "530b1d2a-5b6a-4d77-b7bd-55916914a653")
+		(at 71.5 33.5)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
-		(property "Reference" "H3"
+		(property "Reference" "H51"
 			(at 0 -4.2 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08220ce3-3c70-4b6d-a818-84b126262b59")
+			(uuid "f6e6414f-b7ed-4753-b8b3-310c8714f49b")
 			(effects
 				(font
 					(size 1 1)
@@ -161,7 +161,7 @@
 			(at 0 4.2 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "935d7b88-433d-47f3-8c83-0ced57a346ba")
+			(uuid "7f70de59-54d2-4d55-917c-a7291d928d9b")
 			(effects
 				(font
 					(size 1 1)
@@ -174,7 +174,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f94daab-4f56-455b-8fcb-e5d347d2ea2a")
+			(uuid "b57cca08-a63b-411e-9446-954f661fb5d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -187,352 +187,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7738c29d-b5f7-488c-b102-a1e0bdf21375")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/ab447e37-c473-44f9-b580-278261ee12b1")
-		(sheetname "/")
-		(sheetfile "DMH-Kosmo-10cm-PANEL.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 3.2 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "c3624915-9a07-4630-bb3b-65d8de4a7ab0")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.45 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "6ff8e3f8-ffb4-45ee-ac70-a2eca37024e7")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "3ab81dad-62bd-4b8d-90b2-8eb0c87bc525")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 4 4)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "1_1")
-			(pintype "input")
-			(zone_connect 2)
-			(uuid "d40aefb0-f523-4918-9f94-d319ee91d6ca")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "SynthStuff:MountingHole_Rails"
-		(layer "F.Cu")
-		(uuid "b82a51a4-23b7-4f7a-849b-b6b841ae6a11")
-		(at 146.5 33.5)
-		(descr "Mounting Hole 3.2mm, M3")
-		(tags "mounting hole 3.2mm m3")
-		(property "Reference" "H2"
-			(at 0 -4.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b554150-6fd3-4d06-a649-8430cd611057")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Rails"
-			(at 0 4.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f747b845-76cd-4230-b3fc-73ae1ebff265")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "21f50957-38f8-4b62-bafc-d574e863df9e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d7fddd4-652f-42d3-a635-0333a33b947e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/0fdd41a5-c82a-40c3-8a4e-98f3ced84682")
-		(sheetname "/")
-		(sheetfile "DMH-Kosmo-10cm-PANEL.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 3.2 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "318a4fc5-a899-4d55-8240-a0e14f7f1140")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.45 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "3c8286e1-454c-4a03-a9ca-ceb5c90d6f89")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "39c6884b-d747-4432-82c3-b1f295d57b26")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 4 4)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "1_1")
-			(pintype "input")
-			(zone_connect 2)
-			(uuid "a46d4ac3-fb32-43c7-92aa-4a2c948acca0")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "SynthStuff:MountingHole_Rails"
-		(layer "F.Cu")
-		(uuid "bc6c59a1-8fa8-439d-93bd-bad8386cfab7")
-		(at 146.5 226.5)
-		(descr "Mounting Hole 3.2mm, M3")
-		(tags "mounting hole 3.2mm m3")
-		(property "Reference" "H4"
-			(at 0 -4.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f31b09b-bb00-4754-b229-852c5b773e18")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Rails"
-			(at 0 4.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e0263e79-44af-4310-8773-a3000b561f92")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "32892241-7424-4807-ab63-03021befcabc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0cbb27bb-b143-4ffe-a8bd-ba9d39fa990e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/ed2400b3-24fa-4438-9c25-79e03b5de385")
-		(sheetname "/")
-		(sheetfile "DMH-Kosmo-10cm-PANEL.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 3.2 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "eaeb183f-92c1-417b-bc88-e99e89197cdc")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.45 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "77476053-1a5f-47d2-8ca5-222b4544a9d0")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "d565cc71-fe79-418d-bc2d-2908a3105a31")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 4 4)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "1_1")
-			(pintype "input")
-			(zone_connect 2)
-			(uuid "28e09e8c-413e-40c1-b60d-df67fe82f1c4")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "SynthStuff:MountingHole_Rails"
-		(layer "F.Cu")
-		(uuid "d8bdcc54-3430-4806-89b6-4098d7084b49")
-		(at 53.5 33.5)
-		(descr "Mounting Hole 3.2mm, M3")
-		(tags "mounting hole 3.2mm m3")
-		(property "Reference" "H1"
-			(at 0 -4.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "58b3d4ef-0b55-467f-a2ab-b20b57d83b95")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Rails"
-			(at 0 4.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b8618671-e8de-4fd6-9c1e-fb5a7db7bf0b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "139aae75-8b7d-4284-84e3-efc9d396a592")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "45f31468-9c39-4b51-87bb-dbf50bf59365")
+			(uuid "3dfc2723-f9e2-40d9-95c8-6b2313280c72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,7 +200,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a188ef32-a635-49dd-be51-9fd5d47aadb5")
+			(uuid "ad2da782-264c-4807-8b53-0704a2adc944")
 			(effects
 				(font
 					(size 1 1)
@@ -554,9 +209,9 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/fe1cb2e3-4f6f-454a-b749-40096bc46310")
+		(path "/5c7663c3-8921-49b4-a29d-996e5c473db4")
 		(sheetname "/")
-		(sheetfile "DMH-Kosmo-10cm-PANEL.kicad_sch")
+		(sheetfile "DMH-Kosmo-15cm-PANEL.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -574,7 +229,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "ada9df28-fe60-47ac-8228-cac55af724f7")
+			(uuid "33a53574-d986-4b34-944a-c4ae28b1406b")
 		)
 		(fp_circle
 			(center 0 0)
@@ -585,12 +240,12 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "52a59e24-b418-44dd-8772-accfdbfb5a44")
+			(uuid "968be06c-f399-485e-9540-70f5210345d6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "88cede5e-bc54-4a05-9f80-f631872114da")
+			(uuid "084d2188-edcc-4de9-ba13-6de553ad05ba")
 			(effects
 				(font
 					(size 1 1)
@@ -608,7 +263,825 @@
 			(pinfunction "1_1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "625aa308-aa3d-4736-a5b4-b55564835fcd")
+			(uuid "bb8dd067-7620-4351-874c-7cf4f9621f2b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SynthStuff:MountingHole_Rails"
+		(layer "F.Cu")
+		(uuid "5d2a83f3-fbac-408d-a061-631dc902cf6b")
+		(at 128.5 33.5)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H52"
+			(at 0 -4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5c6ef60-0de0-4c9f-b897-1d715c411cbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Rails"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61804ada-f769-4e60-adad-7472d46d9c7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d3fbc89-67b5-42b4-a8de-071c1f9dc691")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66f51f30-7a30-41a9-bec0-9aeceaa38055")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/f665ad42-5169-442c-bf3c-01c93500f357")
+		(sheetname "/")
+		(sheetfile "DMH-Kosmo-15cm-PANEL.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "a7e99d30-acce-44f0-8f0d-0ae37e999a5d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d540cbc7-cc14-4701-bbc8-b70bd248b138")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "bbaf9219-b4cd-4b61-8691-526210ae5be0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "input")
+			(zone_connect 2)
+			(uuid "3591d2b5-41b1-42e5-a590-6223734b9b71")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SynthStuff:MountingHole_Rails"
+		(layer "F.Cu")
+		(uuid "8c7997b1-715d-461c-b7e2-ff8831797c2e")
+		(at 171.5 226.5)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H4"
+			(at 0 -4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fa7d611-a6f7-4c40-99b4-f0493a0cf81b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Rails"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14b7d8dc-b26e-4150-8360-fa65bd6fa032")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "718e748c-ccf5-43bd-8194-4a138e8b9f57")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce2c4a68-2c3e-46d9-a6c0-26b92a4fd348")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/8ff05f0e-8dae-4936-94de-44b33f480745")
+		(sheetname "/")
+		(sheetfile "DMH-Kosmo-15cm-PANEL.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "1c04f151-7d3f-4006-86dc-91fd537bee7a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "cc169fe9-3dfa-4723-a72f-f7453cd24b0a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c29687f2-4ebf-4a38-a604-d2238461af5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "input")
+			(zone_connect 2)
+			(uuid "559b70d8-8331-4a01-b423-1d66ac1d0506")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SynthStuff:MountingHole_Rails"
+		(layer "F.Cu")
+		(uuid "9c39e4d3-df29-4507-bf5d-e886c3116f79")
+		(at 28.5 33.5)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H1"
+			(at 0 -4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a25c2ef-7eed-4773-943f-6e6787c2e6e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Rails"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b27162f-2b80-4010-bc10-44041d12d30a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9f60be1-2246-4b74-97ab-295152fae832")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0dc67d5d-b5cc-4ad2-a213-28ba14b81cd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26f649e6-ff4c-4f22-97cb-2393fd457225")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/bd9cf939-2c96-4a82-9616-e8097479ead0")
+		(sheetname "/")
+		(sheetfile "DMH-Kosmo-15cm-PANEL.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "5cd9a99f-79e0-4926-97a1-3831ea8ffd02")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "795aa8e9-aaaf-4145-86db-7eb5e1ae65ba")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5701fd3f-6bdc-4ce2-b22a-cb0ee080ede0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "input")
+			(zone_connect 2)
+			(uuid "19929afc-56ab-4782-b0f1-3b970e14d1d1")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SynthStuff:MountingHole_Rails"
+		(layer "F.Cu")
+		(uuid "b0801a37-e921-4116-b049-13948056a353")
+		(at 71.5 226.5)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H53"
+			(at 0 -4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57099c55-59e1-47d8-90fc-5fe478da039a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Rails"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72c797ec-f5cd-4475-ad73-bad8272b1357")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7ab6d70-4a73-43f0-bc50-155244447449")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70b6565e-1a21-4400-b185-bdd0b7390dd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/792829eb-a127-493b-a005-f4c31d12def6")
+		(sheetname "/")
+		(sheetfile "DMH-Kosmo-15cm-PANEL.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "a4b61c88-80d8-4dda-8902-c0b3510a3b2e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b9e371ad-c9c8-4eb3-b67f-465d5576d6a8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "19cd806e-f950-48f2-b8be-948cb73bbabf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "input")
+			(zone_connect 2)
+			(uuid "49ebd2d1-d7b7-4ccf-b054-8aabd086b329")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SynthStuff:MountingHole_Rails"
+		(layer "F.Cu")
+		(uuid "bfb878e4-1be0-4b82-9abc-ff59f7aea386")
+		(at 28.5 226.5)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H3"
+			(at 0 -4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8db69258-d50a-47b4-9533-4f0a414187d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Rails"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc64abc7-1412-4fea-a29b-5796ae105d6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08915862-11cf-4c4e-b933-e315accd3034")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1a7a9d9-5cd4-4e69-8505-d86209ad5830")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/5b1bbebd-0410-4ded-bfdb-14d584b86715")
+		(sheetname "/")
+		(sheetfile "DMH-Kosmo-15cm-PANEL.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "6275f6ed-c3bc-48f5-9bff-c670de4e7179")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e46ea9dd-55f5-49ce-9b9b-3385ac3414d6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fed8b3f7-0bac-4108-b101-76fee05d9be6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "input")
+			(zone_connect 2)
+			(uuid "9adb1cdb-b112-4015-920e-a613a9f3a15e")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SynthStuff:MountingHole_Rails"
+		(layer "F.Cu")
+		(uuid "c83d1a78-a9fa-464a-8aac-b8db978e3a59")
+		(at 128.5 226.5)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H54"
+			(at 0 -4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f32408a-eef5-4a54-912b-6df28923eab5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Rails"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a000371-7329-4b09-87b9-a1a35434eb4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "427196cb-b59e-4649-bf6f-9932ae029776")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15238248-54c9-4cb3-a213-4dbe265ae841")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/43692354-0181-4e5d-b00d-d8fece02cd4b")
+		(sheetname "/")
+		(sheetfile "DMH-Kosmo-15cm-PANEL.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "793b754b-21a3-4703-9142-89a829f35360")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c5895808-c9ec-4ee3-8338-ca18f4ad9dc9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "28a51dda-80d8-4246-bb86-80b77557964d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "input")
+			(zone_connect 2)
+			(uuid "b9042e40-73ee-46a4-8794-3b7c968a7c3a")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SynthStuff:MountingHole_Rails"
+		(layer "F.Cu")
+		(uuid "fca08599-e9ad-4925-ba15-93151b01a140")
+		(at 171.5 33.5)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
+		(property "Reference" "H2"
+			(at 0 -4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37a36902-7838-4cc9-84d9-fe78723e2fdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Rails"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "582c1e46-40a1-4eac-8507-1933d834f4f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92afedb0-7f4a-4f9e-9011-d49cb4fc4947")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abf846c1-010b-49f8-8078-cbf59db98a24")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/43dc5820-3fa7-4e52-81a3-f01af9cc6991")
+		(sheetname "/")
+		(sheetfile "DMH-Kosmo-15cm-PANEL.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "c1788e59-c0a4-4947-8f43-1a14798dfa7b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7edf8227-b388-49ce-8b17-55c6e5560f7b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fa7e36c1-89da-4026-b7d8-cd12faabc1ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "input")
+			(zone_connect 2)
+			(uuid "e4199697-9ce0-4e66-bf12-4fc5f1309ac4")
 		)
 		(embedded_fonts no)
 	)
@@ -624,8 +1097,8 @@
 		(uuid "37a3b1d4-8370-4427-9c7e-bdbcd35fcc0f")
 	)
 	(gr_rect
-		(start 50 30)
-		(end 150 230)
+		(start 25 30)
+		(end 175 230)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1225,8 +1698,8 @@
 		(uuid "7dd1922d-1080-452e-898c-2e6e7999fa77")
 	)
 	(gr_rect
-		(start 50.5 42.5)
-		(end 149.5 217.5)
+		(start 25.5 42.5)
+		(end 174.5 217.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1395,7 +1868,7 @@
 	(zone
 		(net "GND")
 		(layers "F.Cu" "B.Cu")
-		(uuid "efd9e137-1578-4eee-b9b3-c77c412bee61")
+		(uuid "aa9a77b3-c8de-4096-bdae-1de02fe086b0")
 		(name "Ground_planes")
 		(hatch edge 0.5)
 		(connect_pads
@@ -1409,25 +1882,25 @@
 		)
 		(polygon
 			(pts
-				(xy 50 30) (xy 150 30) (xy 150 230) (xy 50 230)
+				(xy 25 30) (xy 175 30) (xy 175 230) (xy 25 230)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 149.442539 30.520185) (xy 149.488294 30.572989) (xy 149.4995 30.6245) (xy 149.4995 229.3755)
-				(xy 149.479815 229.442539) (xy 149.427011 229.488294) (xy 149.3755 229.4995) (xy 50.6245 229.4995)
-				(xy 50.557461 229.479815) (xy 50.511706 229.427011) (xy 50.5005 229.3755) (xy 50.5005 30.6245) (xy 50.520185 30.557461)
-				(xy 50.572989 30.511706) (xy 50.6245 30.5005) (xy 149.3755 30.5005)
+				(xy 174.442539 30.520185) (xy 174.488294 30.572989) (xy 174.4995 30.6245) (xy 174.4995 229.3755)
+				(xy 174.479815 229.442539) (xy 174.427011 229.488294) (xy 174.3755 229.4995) (xy 25.6245 229.4995)
+				(xy 25.557461 229.479815) (xy 25.511706 229.427011) (xy 25.5005 229.3755) (xy 25.5005 30.6245) (xy 25.520185 30.557461)
+				(xy 25.572989 30.511706) (xy 25.6245 30.5005) (xy 174.3755 30.5005)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 149.442539 30.520185) (xy 149.488294 30.572989) (xy 149.4995 30.6245) (xy 149.4995 229.3755)
-				(xy 149.479815 229.442539) (xy 149.427011 229.488294) (xy 149.3755 229.4995) (xy 50.6245 229.4995)
-				(xy 50.557461 229.479815) (xy 50.511706 229.427011) (xy 50.5005 229.3755) (xy 50.5005 30.6245) (xy 50.520185 30.557461)
-				(xy 50.572989 30.511706) (xy 50.6245 30.5005) (xy 149.3755 30.5005)
+				(xy 174.442539 30.520185) (xy 174.488294 30.572989) (xy 174.4995 30.6245) (xy 174.4995 229.3755)
+				(xy 174.479815 229.442539) (xy 174.427011 229.488294) (xy 174.3755 229.4995) (xy 25.6245 229.4995)
+				(xy 25.557461 229.479815) (xy 25.511706 229.427011) (xy 25.5005 229.3755) (xy 25.5005 30.6245) (xy 25.520185 30.557461)
+				(xy 25.572989 30.511706) (xy 25.6245 30.5005) (xy 174.3755 30.5005)
 			)
 		)
 	)
