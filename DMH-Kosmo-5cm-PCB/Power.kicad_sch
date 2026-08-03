@@ -471,7 +471,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SB140"
+		(symbol "Diode:1N5819"
 			(pin_numbers
 				(hide yes)
 			)
@@ -494,7 +494,7 @@
 					)
 				)
 			)
-			(property "Value" "SB140"
+			(property "Value" "1N5819"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -515,7 +515,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -559,7 +559,7 @@
 					)
 				)
 			)
-			(symbol "SB140_0_1"
+			(symbol "1N5819_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -597,7 +597,7 @@
 					)
 				)
 			)
-			(symbol "SB140_1_1"
+			(symbol "1N5819_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -4043,7 +4043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "22uF"
 			(at 29.21 133.7309 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5080,7 +5080,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SB140")
+		(lib_id "Diode:1N5819")
 		(at 53.34 175.26 0)
 		(unit 1)
 		(body_style 1)
@@ -5101,7 +5101,7 @@
 				)
 			)
 		)
-		(property "Value" "SB140"
+		(property "Value" "1N5819"
 			(at 53.0225 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5122,7 +5122,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 53.34 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -5320,7 +5320,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SB140")
+		(lib_id "Diode:1N5819")
 		(at 53.34 185.42 180)
 		(unit 1)
 		(body_style 1)
@@ -5341,7 +5341,7 @@
 				)
 			)
 		)
-		(property "Value" "SB140"
+		(property "Value" "1N5819"
 			(at 53.6575 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5362,7 +5362,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 53.34 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -5400,7 +5400,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SB140")
+		(lib_id "Diode:1N5819")
 		(at 53.34 195.58 180)
 		(unit 1)
 		(body_style 1)
@@ -5421,7 +5421,7 @@
 				)
 			)
 		)
-		(property "Value" "SB140"
+		(property "Value" "1N5819"
 			(at 53.6575 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5442,7 +5442,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 53.34 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -5580,7 +5580,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "22uF"
 			(at 29.21 38.4809 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5953,7 +5953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SB140")
+		(lib_id "Diode:1N5819")
 		(at 106.68 185.42 180)
 		(unit 1)
 		(body_style 1)
@@ -5974,7 +5974,7 @@
 				)
 			)
 		)
-		(property "Value" "SB140"
+		(property "Value" "1N5819"
 			(at 106.9975 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5995,7 +5995,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 106.68 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6134,7 +6134,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "22uF"
 			(at 29.21 108.3309 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6272,7 +6272,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SB140")
+		(lib_id "Diode:1N5819")
 		(at 106.68 175.26 0)
 		(unit 1)
 		(body_style 1)
@@ -6293,7 +6293,7 @@
 				)
 			)
 		)
-		(property "Value" "SB140"
+		(property "Value" "1N5819"
 			(at 106.3625 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6314,7 +6314,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 106.68 175.26 0)
 			(hide yes)
 			(show_name no)
